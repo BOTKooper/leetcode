@@ -6,7 +6,9 @@
   "license": "MIT",
   "private": true,
   "scripts": {
-    "test": "jest --coverage --runInBand --detectOpenHandles --testTimeout=10000 --passWithNoTests"
+    "test": "jest --runInBand --detectOpenHandles --testTimeout=10000 --passWithNoTests",
+    "test:watch": "jest --runInBand --detectOpenHandles --testTimeout=10000 --passWithNoTests --watch",
+    "test:ci": "jest --coverage --runInBand --detectOpenHandles --testTimeout=10000 --passWithNoTests"
   },
   "dependencies": {
     "@types/jest": "^26.0.24",

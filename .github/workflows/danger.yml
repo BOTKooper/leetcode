@@ -13,10 +13,10 @@ jobs:
           node-version: 14.15.3
       - name: install yarn
         run: npm install -g yarn
-      - name: yarn install, build, and test
+      - name: yarn install and test
         run: |
           yarn install  --frozen-lockfile
-          yarn test
+          yarn test:ci
       - name: Danger
         run: yarn danger ci
         env: 
