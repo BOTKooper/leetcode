@@ -2,7 +2,7 @@
 const func = require('../solves/9');
 const { testVal } = require('./helpers');
 
-describe('#8', () => {
+describe('#9', () => {
     it("1", () => {
         testVal(func, '1', true);
     })
