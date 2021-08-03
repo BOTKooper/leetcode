@@ -1,9 +1,10 @@
 {
   "name": "leetcode",
-  "version": "1.0.0",
-  "main": "index.js",
+  "version": "0.0.1",
+  "author": "Alex Ozerov <botkooper@gmail.com> (https://twitter.com/botkooper/)",
+  "git": "https://github.com/BOTKooper/leetcode",
   "license": "MIT",
-  "author": "BOTKooper",
+  "private": true,
   "dependencies": {
     "@types/jest": "^26.0.24",
     "jest": "^27.0.6"
