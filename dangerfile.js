@@ -49,8 +49,6 @@ if (docs.edited) {
     })
 }
 
-if (app.modified) {
-    if(app.modified && taskNumber && !(taskTest.modified || taskTest.created)) {
-        fail('Where are test changes, dear?')
-    }
+if(app.modified && taskNumber && !(taskTest.modified || taskTest.created)) {
+    fail('Where are test changes, dear?')
 }
