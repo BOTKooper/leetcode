@@ -16,6 +16,3 @@
 
     return isNegative ? -revInt : revInt
 };
-
-console.log(reverse(123));
-console.log(reverse(-123));
