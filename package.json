@@ -5,6 +5,9 @@
   "git": "https://github.com/BOTKooper/leetcode",
   "license": "MIT",
   "private": true,
+  "scripts": {
+    "test": "jest --coverage --runInBand --detectOpenHandles --testTimeout=10000 --passWithNoTests"
+  },
   "dependencies": {
     "@types/jest": "^26.0.24",
     "jest": "^27.0.6"
