@@ -2,7 +2,9 @@
 const assert = require('assert');
 
 const testVal = (func, val, exp) => {
-    expect(func(val)).toEqual(exp);
+    const res = func(val);
+    expect(res).toEqual(exp);
+    return res;
 }
 
 module.exports = {
